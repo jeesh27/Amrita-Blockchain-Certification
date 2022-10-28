@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="hansi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-28 09:49:35 PM"/>
+        <attribute name="created" value="aGFuc2k7SEFOU0lDQTsyMDIyLTEwLTI4OzA5OjExOjQ1IFBNOzIzMTU="/>
+        <attribute name="edited" value="aGFuc2k7SEFOU0lDQTsyMDIyLTEwLTI4OzA5OjQ5OjM1IFBNOzI7MjQzNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="rollno" type="String" array="False" size=""/>
+            <output expression="&quot;roll no&quot;" newline="True"/>
+            <input variable="rollno"/>
+            <declare name="name" type="String" array="False" size=""/>
+            <output expression="&quot;name&quot;" newline="True"/>
+            <input variable="name"/>
+            <declare name="address" type="String" array="False" size=""/>
+            <output expression="&quot;address&quot;" newline="True"/>
+            <input variable="address"/>
+            <declare name="bloodgroup" type="String" array="False" size=""/>
+            <output expression="&quot;blood group&quot;" newline="True"/>
+            <input variable="bloodgroup"/>
+            <declare name="phoneno" type="Integer" array="False" size=""/>
+            <output expression="&quot;phone number&quot;" newline="True"/>
+            <input variable="phoneno"/>
+            <declare name="departmentassigned" type="String" array="False" size=""/>
+            <output expression="&quot;department assigned&quot;" newline="True"/>
+            <input variable="departmentassigned"/>
+            <declare name="semester" type="Integer" array="False" size=""/>
+            <output expression="&quot;semester&quot;" newline="True"/>
+            <input variable="semester"/>
+            <declare name="subjectcode1" type="String" array="False" size=""/>
+            <output expression="&quot;subject code 1&quot;" newline="True"/>
+            <input variable="subjectcode1"/>
+            <declare name="subjectcode2" type="String" array="False" size=""/>
+            <output expression="&quot;subject code 2&quot;" newline="True"/>
+            <input variable="subjectcode2"/>
+            <declare name="subjectcode3" type="String" array="False" size=""/>
+            <output expression="&quot;subject code 3&quot;" newline="True"/>
+            <input variable="subjectcode3"/>
+            <declare name="marks1" type="Integer" array="False" size=""/>
+            <output expression="&quot;marks 1&quot;" newline="True"/>
+            <input variable="marks1"/>
+            <declare name="marks2" type="Integer" array="False" size=""/>
+            <output expression="&quot;marks 2&quot;" newline="True"/>
+            <input variable="marks2"/>
+            <declare name="marks3" type="Integer" array="False" size=""/>
+            <output expression="&quot;marks 3&quot;" newline="True"/>
+            <input variable="marks3"/>
+            <declare name="total" type="Real" array="False" size=""/>
+            <assign variable="total" expression="marks1+marks2+marks3"/>
+            <output expression="&quot;total&quot;" newline="True"/>
+            <output expression="total" newline="True"/>
+            <declare name="average" type="Real" array="False" size=""/>
+            <assign variable="average" expression="total/3"/>
+            <output expression="&quot;average&quot;" newline="True"/>
+            <output expression="average" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
